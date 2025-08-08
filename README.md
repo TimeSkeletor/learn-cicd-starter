@@ -1,7 +1,7 @@
-![Action status](https://github.com/TimeSkeletor/learn-cicd-starter/actions/workflows/ci.yml/badge.svg?branch=develop?event=push)
+![Notely branch: feature Status](https://github.com/TimeSkeletor/learn-cicd-starter/actions/workflows/ci.yml/badge.svg?branch=addtests)
 
+![Notely branch: main Status](https://github.com/TimeSkeletor/learn-cicd-starter/actions/workflows/ci.yml/badge.svg?branch=main)
 
-![example event parameter](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?event=push)
 
 # learn-cicd-starter (Notely)
 
