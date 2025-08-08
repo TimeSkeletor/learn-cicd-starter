@@ -1,5 +1,3 @@
-![Notely branch: feature Status](https://github.com/TimeSkeletor/learn-cicd-starter/actions/workflows/ci.yml/badge.svg?branch=addtests)
-
 ![Notely branch: main Status](https://github.com/TimeSkeletor/learn-cicd-starter/actions/workflows/ci.yml/badge.svg?branch=main)
 
 
