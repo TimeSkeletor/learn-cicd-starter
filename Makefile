@@ -1,13 +1,31 @@
+APP = notely
+
 STYLE_CHECK = staticcheck
 STYLE_CHECK_REPO = honnef.co/go/tools/cmd/staticcheck@latest
+
 SECURITY_CHECK = gosec
 SECURITY_CHECK_REPO = github.com/securego/gosec/v2/cmd/gosec@latest
 
+PORT = 8080
 
-.PHONY: run test fmt style_check security_check
+OWNER = TimeSkeletor
+
+
+
+.PHONY: run test fmt style_check security_check build docker_build docker_run
 
 run:
 	go build -o notely && ./notely
+
+build:
+	./scripts/buildprod.sh
+
+
+docker_build:
+	docker build -t ${OWNER}/${APP}:latest .
+
+docker_run:
+	docker run -e PORT=${PORT} -p 8080:${PORT} ${OWNER}/${APP}:latest
 
 fmt:
 	@files="$$(go fmt ./...)"; \
