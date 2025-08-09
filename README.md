@@ -1,5 +1,7 @@
-![Notely branch: main Status](https://github.com/TimeSkeletor/learn-cicd-starter/actions/workflows/ci.yml/badge.svg?branch=main)
+# Branch Status
+### Main branch: ![Notely branch: main Status](https://github.com/TimeSkeletor/learn-cicd-starter/actions/workflows/ci.yml/badge.svg?branch=main)
 
+***
 
 # learn-cicd-starter (Notely)
 
